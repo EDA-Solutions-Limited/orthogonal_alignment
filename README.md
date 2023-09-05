@@ -39,7 +39,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-YOUR DESCRIPTION
+This macro is used for aligning objects orthogonally by moving the first object in the x or y direction using hotkeys. 
+
 
 ### Built With 
 
