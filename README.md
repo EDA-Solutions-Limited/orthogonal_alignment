@@ -1,4 +1,4 @@
-# TITLE
+# Orthogonal Alignment
 
 <!-- PROJECT LOGO -->
 <p align="center">
@@ -23,6 +23,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#usage">Usage</a></li>
       </ul>
@@ -40,27 +41,41 @@
 
 YOUR DESCRIPTION
 
-### Built With
+### Built With 
 
-* [Tcl](https://www.tcl.tk/about/language.html)
-* [Python](https://www.python.org/)
+* [C++](https://cplusplus.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+### Prerequisites
+
+L-Edit layout design.
+
 ### Installation
 
-INSTALL_STEP
+* Download the C++ file
+* In L-Edit, go to Menu > Tools > Macro
+* Load the Macro file
 
-#### SECTION 1
-YOUR INSTRUCTIONS
 
 ### Usage
-
-USAGE NOTES
+<ol>
+    <li>
+Select an object which will be cut and past to the new location
+    </li>
+<li>Hover the curser over the point where the first basepoint will be placed </li>
+<li>Use the hotkey to selct that point and start the macro </li>
+      <ul>
+        <li>For a Horizontal alignment, use "Ctrl + 1"</li>
+        <li>For a Vertical alignment, use "Ctrl + 2"</li>
+      </ul>
+    </li>
+<li>Select a poinht on the second aspect which the first point should align to</li>
+</ol>
 
 ### Notes:
-This script was tested on: YOUR SETUP
+This script was tested on L-Edit v2023.2 on a Windows 10 machine. 
 <br>
 
 <!-- ROADMAP -->
